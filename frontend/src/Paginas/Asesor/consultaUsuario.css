@@ -1,0 +1,71 @@
+.gestionar-usuarios {
+    padding: 20px;
+  }
+  
+  .gestionar-usuarios input,
+  .gestionar-usuarios select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .gestionar-usuarios button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .gestionar-usuarios button:hover {
+    background-color: #0056b3;
+  }
+  
+  .usuario-detalles {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .usuario-detalles p {
+    margin: 5px 0;
+  }
+  
+  .filtro-roles,
+  .horarios {
+    margin-top: 20px;
+  }
+  
+  .horarios {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .horario-item,
+  .hora-item {
+    margin-bottom: 10px;
+  }
+  
+  .hora-item input[type="time"],
+  .hora-item input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  .hora-item label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hora-item input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .error {
+    color: rgb(30, 255, 0);
+  }
+  

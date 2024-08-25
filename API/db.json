@@ -1,0 +1,653 @@
+{
+  "Usuarios": [
+    {
+      "id": "1",
+      "Nombre": "Daniel Zuñiga",
+      "Correo": "dzuniga873@gmail.com",
+      "Contraseña": "DanielZ0905",
+      "Rol": "Doctor",
+      "Especialidad": "Medicina General",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 1 - Consultorio 101",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 1 - Consultorio 101",
+              "disponible": false
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 1 - Consultorio 101",
+              "disponible": false
+            }
+          ]
+        },
+        {
+          "fecha": "2024-08-24",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 1 - Consultorio 102",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 1 - Consultorio 102",
+              "disponible": false
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 1 - Consultorio 102",
+              "disponible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "Nombre": "María González",
+      "Correo": "mgonzalez@hospital.com",
+      "Contraseña": "MariaG123",
+      "Rol": "Doctor",
+      "Especialidad": "Pediatría",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 2 - Consultorio 201",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 2 - Consultorio 201",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 2 - Consultorio 201",
+              "disponible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "Nombre": "Carlos Fernández",
+      "Correo": "cfernandez@hospital.com",
+      "Contraseña": "CarlosF123",
+      "Rol": "Doctor",
+      "Especialidad": "Cardiología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 3 - Consultorio 301",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 3 - Consultorio 301",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 3 - Consultorio 301",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "Nombre": "Ana Morales",
+      "Correo": "amorales@hospital.com",
+      "Contraseña": "AnaM456",
+      "Rol": "Doctor",
+      "Especialidad": "Dermatología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 4 - Consultorio 401",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 4 - Consultorio 401",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 4 - Consultorio 401",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "Nombre": "Luis Gómez",
+      "Correo": "lgomez@hospital.com",
+      "Contraseña": "LuisG789",
+      "Rol": "Doctor",
+      "Especialidad": "Ginecología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 5 - Consultorio 501",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 5 - Consultorio 501",
+              "disponible": false
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 5 - Consultorio 501",
+              "disponible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "Nombre": "Patricia Ruiz",
+      "Correo": "pruiz@hospital.com",
+      "Contraseña": "PatriciaR123",
+      "Rol": "Doctor",
+      "Especialidad": "Oftalmología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 6 - Consultorio 601",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 6 - Consultorio 601",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 6 - Consultorio 601",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "Nombre": "Javier Pérez",
+      "Correo": "jperez@hospital.com",
+      "Contraseña": "JavierP123",
+      "Rol": "Doctor",
+      "Especialidad": "Otorrinolaringología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 7 - Consultorio 701",
+              "disponible": true
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 7 - Consultorio 701",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 7 - Consultorio 701",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "Nombre": "Sofía Romero",
+      "Correo": "sromero@hospital.com",
+      "Contraseña": "SofiaR123",
+      "Rol": "Doctor",
+      "Especialidad": "Neurología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 8 - Consultorio 801",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 8 - Consultorio 801",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 8 - Consultorio 801",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "Nombre": "David Torres",
+      "Correo": "dtorres@hospital.com",
+      "Contraseña": "DavidT123",
+      "Rol": "Doctor",
+      "Especialidad": "Endocrinología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 9 - Consultorio 901",
+              "disponible": true
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 9 - Consultorio 901",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 9 - Consultorio 901",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "Nombre": "Laura Sánchez",
+      "Correo": "lsanchez@hospital.com",
+      "Contraseña": "LauraS123",
+      "Rol": "Doctor",
+      "Especialidad": "Psiquiatría",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 10 - Consultorio 1001",
+              "disponible": true
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 10 - Consultorio 1001",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 10 - Consultorio 1001",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "Nombre": "Antonio Martínez",
+      "Correo": "amartinez@hospital.com",
+      "Contraseña": "AntonioM123",
+      "Rol": "Doctor",
+      "Especialidad": "Urología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 11 - Consultorio 1101",
+              "disponible": true
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 11 - Consultorio 1101",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 11 - Consultorio 1101",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "Nombre": "Beatriz Silva",
+      "Correo": "bsilva@hospital.com",
+      "Contraseña": "BeatrizS123",
+      "Rol": "Doctor",
+      "Especialidad": "Traumatología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 12 - Consultorio 1201",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 12 - Consultorio 1201",
+              "disponible": true
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 12 - Consultorio 1201",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "Nombre": "Marcela López",
+      "Correo": "mlopez@hospital.com",
+      "Contraseña": "MarcelaL123",
+      "Rol": "Doctor",
+      "Especialidad": "Odontología",
+      "Horario": [
+        {
+          "fecha": "2024-08-23",
+          "horarios": [
+            {
+              "hora": "09:00",
+              "consultorio": "Piso 13 - Consultorio 1301",
+              "disponible": false
+            },
+            {
+              "hora": "10:00",
+              "consultorio": "Piso 13 - Consultorio 1301",
+              "disponible": false
+            },
+            {
+              "hora": "11:00",
+              "consultorio": "Piso 13 - Consultorio 1301",
+              "disponible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "Nombre": "Juan Pérez",
+      "Correo": "jperez@hospital.com",
+      "Contraseña": "JuanP123",
+      "Rol": "Asesor",
+      "Horario": []
+    },
+    {
+      "id": "15",
+      "Nombre": "Laura Fernández",
+      "Correo": "lfernandez@hospital.com",
+      "Contraseña": "LauraF123",
+      "Rol": "Asesor",
+      "Horario": []
+    },
+    {
+      "id": "16",
+      "Nombre": "Luis Lugo",
+      "Correo": "lugobecerra9@gmail.com",
+      "Contraseña": "LuisL12345",
+      "Rol": "Paciente",
+      "Horario": [],
+      "Especialidad": ""
+    },
+    {
+      "id": "17",
+      "Nombre": "Ana Rodríguez",
+      "Correo": "arodriguez@hospital.com",
+      "Contraseña": "AnaR123",
+      "Rol": "Paciente",
+      "Horario": []
+    },
+    {
+      "id": "1724537248996",
+      "Nombre": "Miguel Uran",
+      "Correo": "migueluran465@gmail.com",
+      "Contraseña": "migueluran",
+      "Rol": "Paciente",
+      "Horario": []
+    }
+  ],
+  "CitasAgendadas": [
+    {
+      "id": "6299",
+      "PacienteId": "17",
+      "DoctorId": "2",
+      "DoctorNombre": "María González",
+      "Especialidad": "Pediatría",
+      "Fecha": "2024-08-23",
+      "Hora": "11:00",
+      "Consultorio": "Piso 2 - Consultorio 201",
+      "Estado": "Asignada"
+    },
+    {
+      "id": "ac1c",
+      "PacienteId": "16",
+      "PacienteNombre": "Luis Lugo",
+      "DoctorId": "1",
+      "DoctorNombre": "Daniel Zuñiga",
+      "Especialidad": "Medicina General",
+      "Fecha": "2024-08-24",
+      "Hora": "10:00",
+      "Consultorio": "Piso 1 - Consultorio 102",
+      "Estado": "Asistida"
+    },
+    {
+      "id": "e32c",
+      "PacienteId": "1724537248996",
+      "PacienteNombre": "Miguel Uran",
+      "DoctorId": "5",
+      "DoctorNombre": "Luis Gómez",
+      "Especialidad": "Ginecología",
+      "Fecha": "2024-08-23",
+      "Hora": "11:00",
+      "Consultorio": "Piso 5 - Consultorio 501",
+      "Estado": "Cancelada"
+    },
+    {
+      "id": "b96d",
+      "PacienteId": "1724537248996",
+      "PacienteNombre": "Miguel Uran",
+      "DoctorId": "4",
+      "DoctorNombre": "Ana Morales",
+      "Especialidad": "Dermatología",
+      "Fecha": "2024-08-23",
+      "Hora": "09:00",
+      "Consultorio": "Piso 4 - Consultorio 401",
+      "Estado": "Cancelada"
+    },
+    {
+      "id": "1c1d",
+      "PacienteId": "1724537248996",
+      "PacienteNombre": "Miguel Uran",
+      "DoctorId": "13",
+      "DoctorNombre": "Marcela López",
+      "Especialidad": "Odontología",
+      "Fecha": "2024-08-23",
+      "Hora": "11:00",
+      "Consultorio": "Piso 13 - Consultorio 1301",
+      "Estado": "Cancelada"
+    },
+    {
+      "id": "5724",
+      "PacienteId": "1724537248996",
+      "PacienteNombre": "Miguel Uran",
+      "DoctorId": "3",
+      "DoctorNombre": "Carlos Fernández",
+      "Especialidad": "Cardiología",
+      "Fecha": "2024-08-23",
+      "Hora": "09:00",
+      "Consultorio": "Piso 3 - Consultorio 301",
+      "Estado": "Cancelada"
+    },
+    {
+      "id": "a9ee",
+      "PacienteId": "1724537248996",
+      "PacienteNombre": "Miguel Uran",
+      "DoctorId": "5",
+      "DoctorNombre": "Luis Gómez",
+      "Especialidad": "Ginecología",
+      "Fecha": "2024-08-23",
+      "Hora": "10:00",
+      "Consultorio": "Piso 5 - Consultorio 501",
+      "Estado": "Cancelada"
+    },
+    {
+      "id": "ac87",
+      "PacienteId": "1724537248996",
+      "PacienteNombre": "Miguel Uran",
+      "DoctorId": "5",
+      "DoctorNombre": "Luis Gómez",
+      "Especialidad": "Ginecología",
+      "Fecha": "2024-08-23",
+      "Hora": "09:00",
+      "Consultorio": "Piso 5 - Consultorio 501",
+      "Estado": "Asignada"
+    },
+    {
+      "id": "6c44",
+      "PacienteId": "16",
+      "PacienteNombre": "Luis Lugo",
+      "DoctorId": "6",
+      "DoctorNombre": "Patricia Ruiz",
+      "Especialidad": "Oftalmología",
+      "Fecha": "2024-08-23",
+      "Hora": "09:00",
+      "Consultorio": "Piso 6 - Consultorio 601",
+      "Estado": "Asignada"
+    },
+    {
+      "id": "c251",
+      "PacienteId": "1",
+      "PacienteNombre": "Daniel Zuñiga",
+      "DoctorId": "8",
+      "DoctorNombre": "Sofía Romero",
+      "Especialidad": "Neurología",
+      "Fecha": "2024-08-23",
+      "Hora": "09:00",
+      "Consultorio": "Piso 8 - Consultorio 801",
+      "Estado": "Asignada"
+    },
+    {
+      "id": "134f",
+      "PacienteId": "14",
+      "PacienteNombre": "Juan Pérez",
+      "DoctorId": "13",
+      "DoctorNombre": "Marcela López",
+      "Especialidad": "Odontología",
+      "Fecha": "2024-08-23",
+      "Hora": "09:00",
+      "Consultorio": "Piso 13 - Consultorio 1301",
+      "Estado": "Asignada"
+    }
+  ],
+  "Multas": [
+    {
+      "id": "93d4",
+      "PacienteId": "16",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-23"
+    },
+    {
+      "id": "3240",
+      "PacienteId": "17",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-23"
+    },
+    {
+      "id": "f317",
+      "PacienteId": "16",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-23"
+    },
+    {
+      "id": "df79",
+      "PacienteId": "17",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-23"
+    },
+    {
+      "id": "8a46",
+      "PacienteId": "1724537248996",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-24"
+    },
+    {
+      "id": "a283",
+      "PacienteId": "1724537248996",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-24"
+    },
+    {
+      "id": "7b07",
+      "PacienteId": "1724537248996",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-24"
+    },
+    {
+      "id": "6144",
+      "PacienteId": "1724537248996",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-24"
+    },
+    {
+      "id": "0af6",
+      "PacienteId": "1724537248996",
+      "Monto": 10000,
+      "Motivo": "Cancelación de cita",
+      "Fecha": "2024-08-24"
+    }
+  ]
+}
